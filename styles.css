@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Akshar', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+
+:root {
+    --space-font-color: #161a1d;
+    --basic-font-color: #f1faee;
+    --star-color: #48cae4;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    color: var(--basic-font-color);
+    background-color: var(--space-font-color);
+}
+
+#spaceImg {
+    width: 35vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4vh;
+}
+
+.text, #btnCreateAcc, .accountText {
+    margin-left: 3vw;
+}
+
+
+form {
+   /* background-color: var(--space-font-color);*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4vw;
+    text-transform: uppercase;
+    width: 50vw;
+    height: 30vh;
+    padding-left: 3vw;
+}
+
+legend {
+    text-transform: capitalize;
+}
+
+.text {
+    width: 38vw;
+}
+
+.text, legend {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 10vw;
+    height: 2.5vh;
+    border: 2px solid var(--basic-font-color);
+    border-radius: 4px;
+    background-color: var(--space-font-color);
+    color: var(--star-color)
+}
+
+input:focus  {
+    border: 2px solid #48cae4;
+    outline: none;
+}
+
+.formLeft, .formRight {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.formRight {
+    margin-top: 5vh;
+}
+
+#btnCreateAcc {
+    padding: 4px 15px; 
+    font-size: 2em;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--star-color);
+}
+
+#btnCreateAcc:hover {
+    color: var(--basic-font-color);
+    cursor: pointer;
+}
+
+span {
+    margin-left: 5px;
+}
+
+a, a:visited {
+    color: var(--star-color);
+}
+
+.copyMatt {
+    font-size: 12px;
+    position: relative;
+    left: 1vw;
+    top: 12vh;
+    color: var(--basic-font-color);
+}
+
+.copyMatt > a {
+    font-size: 12px;
+}
+
+
+
+
+

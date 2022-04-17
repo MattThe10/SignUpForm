@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <img src="Space.jpg" alt="A photo of distant galaxy" id="spaceImg">
+        <div class="container">
+            <p class="text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.
+            </p>
+            <p class="text">You know you want to.</p>
+            <form action="post" id="accCreationForm"> 
+                <div class="formLeft">
+                    <legend>Let's do this!</legend>
+                    <div class="input">
+                        <label for="firstNameIn" id="firstNameInLabel">first name</label>                   
+                        <input type="text" id="firstNameIn">
+                    </div>
+                    <div class="input">
+                        <label for="emailIn">email</label>
+                        <input type="email" id="emailIn">
+                    </div>
+                    <div class="input">
+                        <label for="passIn">password</label>
+                        <input type="password" id="passIn">
+                    </div>
+                </div>          
+                <div class="formRight">
+                    <div class="input">
+                        <label for="lastNameIn">last name</label>
+                        <input type="text" id="lastNameIn">
+                    </div>
+                    <div class="input">
+                        <label for="phoneIn">phone number</label>
+                        <input type="text" id="phoneIn">
+                    </div>
+                    <div class="input">
+                        <label for="confirmPassIn">confirm password</label>
+                        <input type="password" id="confirmPassIn">
+                    </div>
+                </div>              
+            </form>
+            <button id="btnCreateAcc">Create Account</button>
+            <p class="accountText">Already have an account?<span><a href="#">Log in</a></span></p>
+            <p class="copyMatt">Made by <a href="https://github.com/MattThe10">MattThe10</a> &copy 2022</p>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
